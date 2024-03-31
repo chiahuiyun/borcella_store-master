@@ -6,9 +6,9 @@ import { Separator } from './ui/separator'
 
 const Footer = () => {
   return (
-    <div className='absolute w-full bottom-0'>
+    <div className='bottom-0 justify-between mt-auto'>
         <Separator className='my-2 bg-grey-2'/>
-        <div className='relative top-0 z-10 py-2 px-10 flex gap-2 justify-between items-center bg-white max-sm:px-2'>
+        <div className='top-0 z-10 py-2 px-10 flex gap-2 justify-between items-center bg-white max-sm:px-2'>
             <Link href="/">
                 <Image src="/logo.png" alt="logo" width={130} height={100} />
             </Link>
