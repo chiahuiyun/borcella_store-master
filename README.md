@@ -1,6 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Stack Used:
+<!-- [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts,react,mongodb&perline=5)](https://skillicons.dev) -->
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts,react,mongodb" />
+  </a>
+</p>
+
+## Description
+This is a full stack integrated E-Commerce website with an Admin Dashboard using Next.js 14, Stripe for payment, TypeScript, MongoDB for all database management, Clerk for authentication and user management, React-Hook-Form for form validation, Tailwind CSS & Shadcn UI for a stunning responsive UI design, and Next Cloudinary for image upload and storage.
+
+- Admin Dashboard:https://borcella-admin-alpha.vercel.app
+- Ecommerce Website:https://borcella-store-nine.vercel.app
 
 ## Getting Started
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
