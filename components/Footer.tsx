@@ -6,14 +6,14 @@ import { Separator } from './ui/separator'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='absolute w-full bottom-0'>
         <Separator className='my-2 bg-grey-2'/>
-        <div className='top-0 z-10 py-2 px-10 flex gap-2 justify-between items-center bg-white max-sm:px-2'>
+        <div className='relative top-0 z-10 py-2 px-10 flex gap-2 justify-between items-center bg-white max-sm:px-2'>
             <Link href="/">
                 <Image src="/logo.png" alt="logo" width={130} height={100} />
             </Link>
             <div>
-                <p className='flex flex-wrap justify-center items-center mt-4 p-1 text-body-medium'>© 2023 Borcelle Store</p>
+                <p className='flex flex-wrap justify-center items-center mt-4 p-1 text-small-medium'>© 2023 Borcelle Store</p>
             </div>
             <div>
                 <p className='flex flex-wrap justify-center items-center gap-10 py-2'>
